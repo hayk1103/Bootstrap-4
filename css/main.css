@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Tahoma, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+label, a, p {
+    font-size: 13px;
+}
+
+a {
+    color: #005bd1;
+}
+
+a:hover {
+    color: #005bd1;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+input, select {
+    height: 30px !important;
+    border-radius: 0 !important;
+    transition: none;
+}
+
+select {
+    background: none !important;
+    -webkit-appearance: menulist !important;
+}
+
+input:focus, select:focus {
+    border: 1px solid #ced4da !important;
+    box-shadow: none !important;
+}
+
+.black {
+    color: #000;
+}
+
+.grey {
+    color: #999;
+}
+
+.header {
+    border-bottom: none;
+}
+
+.content {
+    border-radius: 0;
+}
+
+.modal-md {
+    max-width: 420px;
+}
+
+.password input {
+    border-right: 0;
+}
+
+.password input:focus {
+    border: 1px solid #ced4da !important;
+    border-right: 0 !important;
+    box-shadow: none !important;
+}
+
+.password div {
+    background: none;
+    border: 1px solid #ced4da;
+    border-left: 0;
+    border-radius: 0;
+}
+
+.second-content {
+    border-top: none;
+    /* border-right: none; */
+}
+
+.button {
+    border-radius: 2px;
+    height: 32px;
+    padding: 0 16px !important;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        display: none;
+    }
+
+    .dialog {
+        margin: 0;
+    }
+
+    .content {
+        border: none !important;
+    }
+
+    .button {
+        width: 100%;
+    }
+}
